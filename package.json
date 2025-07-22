@@ -1,0 +1,16 @@
+{
+	"name": "3.-photography",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "Pooya",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx @tailwindcss/cli -i ./src/input.css -o ./public/styles/style.css --watch"
+	},
+	"dependencies": {
+		"@tailwindcss/cli": "^4.1.11",
+		"tailwindcss": "^4.1.11"
+	}
+}
